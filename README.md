@@ -1,4 +1,5 @@
 print("Task 1")
+
 #№,1
 # Define the sequence of numbers as a list
 sequence = [4, 8, 15, 16, 23, 42]
