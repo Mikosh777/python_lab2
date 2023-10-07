@@ -47,10 +47,11 @@ b = int(input('y position: '))
 c = int(input('next x position: '))
 d = int(input('next y position: '))
 
-if ():
-     print("Yes")
+if (a == c and (b - d == 1 or d - b == -1)) or (b == d and (a - c == 1 or a - c == -1)):
+    print("Yes")
 else:
-     print("No")
+    print("No")
+
      
      
 #6 Average number
@@ -73,10 +74,11 @@ except ValueError:
 #8 Weigh-in ceremony 
 try:
     kg = int(input("Enter weight:"))
-    if kg <= 60 :    print("Light weight")
-    elif kg <= 64 and kg >=60:
+    if kg <= 60 : 
+         print("Light weight")
+    elif kg <= 64 and kg >60:
          print("First welterweight ")
-    elif kg <= 69 and kg >=64:
+    elif kg <= 69 and kg >64:
          print("Welterweight ")
 except ValueError:
         print("Value should be Integer!")
